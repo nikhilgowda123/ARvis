@@ -2,6 +2,12 @@
 
 ARvis is an Augmented Reality mobile application that uses image recognition technology to recognize the movie from the image of its poster and then displays the movie trailer along with other helpful information about the movie. Simply pointing the smartphone camera at a movie poster will enable users to use this application that will quickly and accurately identify the title of the film and show the trailer. The application also provides additional information such as the main lead, genre, IMDB rating, available languages, and worldwide collection, making it a comprehensive tool for movie discovery.
 
+![Screenshot](arvis1.png)
+
+![Screenshot](arvis2.png)
+
+![Screenshot](arvis3.png)
+
 ## Introduction ##
 
 With applications in a variety of fields, including education, gaming, retail, and entertainment, Augmented Reality (AR) technology has been gaining popularity quickly in recent years. In the entertainment sector, AR has grown in popularity as a way to improve audience's movie-watching experiences. The goal of this project is to use AR technology to offer a unique and immersive experience for users to interact with movie posters and learn about new movies.
@@ -36,6 +42,9 @@ A third-party API called the IMDb-API enables programmers to access the comprehe
 
 ## Implementation ##
 
+![Screenshot](arvis4.png)
+
+
 ARvis is developed using Swift programming language, a native language designed by Apple which is used to develop applications for iOS. Swift libraries such as ARKit, XCDYoutubeKit, SpriteKit, SwiftyJSON are effectively used in order to process different types of data from API’s at various levels of the application accordingly.
 
 ## Experiment and Results ##
@@ -45,3 +54,24 @@ ARvis is developed using Swift programming language, a native language designed 
 A total of 15 movie posters of different genres and languages have been considered to study the accuracy and efficiency of the application. For every movie, results specifying whether each API was able to fetch the details of the movie correctly or not is noted which is then analyzed to determine the areas of improvement. The movies selected for the experiment are divided into three sections based on their popularity i.e. Popular, Average, and Unpopular.
 
 ### Results ###
+
+| Movie                      | Google Cloud Vision | Google YouTube Data API v3 | IMDB-API |
+|----------------------------|---------------------|-----------------------------|----------|
+| Spider-Man: No Way Home    | Yes                 | Yes                         | No       |
+| Inception                  | Yes                 | Yes                         | Yes      |
+| Avatar                     | Yes                 | No                          | No       |
+| Baahubali – The Beginning | Yes                 | Yes                         | Yes      |
+| KGF – Chapter 2            | Yes                 | Yes                         | Yes      |
+| The Vault                  | Yes                 | Yes                         | Yes      |
+| The Tomorrow War           | Yes                 | Yes                         | Yes      |
+| Venom                      | Yes                 | Yes                         | Yes      |
+| Sooryavanshi               | Yes                 | Yes                         | No       |
+| The Assistant              | Yes                 | No                          | No       |
+| Annihilation               | Yes                 | No                          | Yes      |
+| Maanagaram                 | No                  | Yes                         | No       |
+| October                    | No                  | No                          | No       |
+| Mirage                     | Yes                 | Yes                         | Yes      |
+| The Wandering Earth        | Yes                 | Yes                         | No       |
+
+
+Noting down the success rate of the API’s for a particular category, such as the popularity of the movie, is useful to further analyze and improve the algorithms of the application. Tuning these APIs would definitely improve the efficiency and accuracy of the application.
