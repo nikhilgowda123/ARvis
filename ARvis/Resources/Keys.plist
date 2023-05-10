@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GoogleVisionCloudAPI</key>
+	<string>AIzaSyCOlWxKdKr1EKbu6rTP0snWiPAxmuL2C9Q</string>
+	<key>ImdbAPIKey</key>
+	<string>k_xdwip811</string>
+	<key>YouTubeDataAPI</key>
+	<string>AIzaSyBQtxGUElAKzWA9PdRyobshanyIIcSJKYc</string>
+</dict>
+</plist>
