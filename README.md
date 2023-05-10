@@ -75,3 +75,23 @@ A total of 15 movie posters of different genres and languages have been consider
 
 
 Noting down the success rate of the API’s for a particular category, such as the popularity of the movie, is useful to further analyze and improve the algorithms of the application. Tuning these APIs would definitely improve the efficiency and accuracy of the application.
+
+## Run the Project ##
+
+To run the project, follow the steps below:
+
+1. Unzip the File "22310117".
+
+2. Open X-Code.
+
+3. On the starting window of X-code, select "Open a Project or File" and navigate to the unzipped project folder. Click on open.
+
+4. In X-code, navigate to ARvis/Resources/ and open Keys.plist. Add in the API keys for Google Cloud Vision API, YouTube Data API v3, and IMDB API. Currently, we have added our free API keys, which have a limited number of allowed API calls since it is free.
+
+Note: API Keys can be obtained by registering in the following links:
+
+Google Cloud Vision API - https://cloud.google.com/vision
+Google YouTube Data v3 API - https://developers.google.com/youtube/v3
+IMDB API - https://imdb-api.com/
+
+5. Connect an iPhone that supports at least iOS 13 and run the app.
