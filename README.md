@@ -90,8 +90,8 @@ To run the project, follow the steps below:
 
 Note: API Keys can be obtained by registering in the following links:
 
-Google Cloud Vision API - https://cloud.google.com/vision
-Google YouTube Data v3 API - https://developers.google.com/youtube/v3
-IMDB API - https://imdb-api.com/
+ - Google Cloud Vision API - https://cloud.google.com/vision
+ - Google YouTube Data v3 API - https://developers.google.com/youtube/v3
+ - IMDB API - https://imdb-api.com/
 
 5. Connect an iPhone that supports at least iOS 13 and run the app.
